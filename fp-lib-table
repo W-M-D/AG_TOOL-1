@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name SIP_SSR_CRYDOM)(type KiCad)(uri "$(KIPRJMOD)/SIP_SSR_CRYDOM.pretty")(options "")(descr ""))
+)
