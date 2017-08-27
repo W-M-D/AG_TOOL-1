@@ -34,6 +34,7 @@ LIBS:nordicsemi
 LIBS:Power_Management
 LIBS:pspice
 LIBS:switches
+LIBS:AG_TOOL#1-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -442,7 +443,7 @@ U 1 1 593C5AE7
 P 2700 4200
 F 0 "DS1" H 1900 4600 50  0000 C CNN
 F 1 "LCD16X2" H 3400 4600 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_2x16_Pitch2.00mm" H 2700 4150 50  0001 C CIN
+F 2 "Pin_Headers:Pin_Header_Straight_2x08_Pitch2.00mm" H 2700 4150 50  0001 C CIN
 F 3 "" H 2700 4200 50  0000 C CNN
 	1    2700 4200
 	1    0    0    -1  
@@ -1027,4 +1028,14 @@ F 3 "" H 3650 6600 50  0001 C CNN
 	1    3650 6600
 	1    0    0    -1  
 $EndComp
+Text GLabel 6950 3300 2    60   Input ~ 0
+TEMP+
+Text GLabel 5150 4900 0    60   Input ~ 0
+TEMP-
+Text GLabel 6950 3700 2    60   Input ~ 0
+MENU
+Text GLabel 6950 3400 2    60   Input ~ 0
+FORWARD
+Text GLabel 6950 3500 2    60   Input ~ 0
+BACK
 $EndSCHEMATC
